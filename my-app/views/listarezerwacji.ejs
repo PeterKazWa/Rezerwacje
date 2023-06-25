@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lista rezerwacji</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <h1>Określ parametry rezerwacji</h1>
+    <form action="/reservation" method="POST">
+        <label for="floor">Wybierz piętro na którym chcesz zarezerwować miejsce:</label>
+        <select id="floor" name="floor" required>
+            <!-- Opcje pięter powinny być zaciągane z bazy danych -->
+            <option value="1">Piętro 1</option>
+            <option value="2">Piętro 2</option>
+            <!-- Dodaj pozostałe opcje pięter z bazy danych -->
+        </select>
+        <br>
+        <label for="monitors">Wybierz liczbę monitorów na stanowisku:</label>
+        <select id="monitors" name="monitors" required>
+            <!-- Opcje liczby monitorów powinny być zaciągane z bazy danych -->
+            <option value="1">1 monitor</option>
+            <option value="2">2 monitory</option>
+            <!-- Dodaj pozostałe opcje liczby monitorów z bazy danych -->
+        </select>
+        <br>
+        <label for="date">Wybierz datę rezerwacji:</label>
+        <input type="date" id="date" name="date" required>
+        <br>
+        <label for="desk">Wybierz dostępne miejsce:</label>
+        <select id="desk" name="desk" required>
+            <!-- Opcje dostępnych miejsc powinny być zaciągane z bazy danych -->
+            <option value="1">Miejsce 1</option>
+            <option value="2">Miejsce 2</option>
+            <!-- Dodaj pozostałe opcje dostępnych miejsc z bazy danych -->
+        </select>
+        <br>
+        <button type="submit">Zarezerwuj</button>
+    </form>
+</body>
+</html>

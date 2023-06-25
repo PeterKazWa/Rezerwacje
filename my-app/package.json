@@ -1,0 +1,22 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Opis",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "adres-url-do-repozytorium-git"
+  },
+  "keywords": [
+    "słowo-kluczowe-1",
+    "słowo-kluczowe-2"
+  ],
+  "author": "Twoje imię lub nazwisko",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

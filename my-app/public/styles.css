@@ -1,0 +1,211 @@
+/* Globalne style */
+
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Stylizacja strony Home */
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-container h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.home-container .login-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.home-container .login-button:hover {
+  background-color: #0056b3;
+}
+
+/* Stylizacja strony Calendar */
+
+.calendar-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.calendar-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.calendar-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.calendar-container li {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.calendar-container li.selected {
+  background-color: lightblue;
+}
+
+.calendar-container li.reserved {
+  background-color: lightcoral;
+}
+
+/* Stylizacja strony Login */
+
+.login-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.login-container button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Stylizacja strony Reservation */
+
+.reservation-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.reservation-container p {
+  margin-bottom: 10px;
+  color: red;
+  font-size: 18px;
+}
+
+.reservation-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reservation-container li {
+  margin-bottom: 5px;
+  color: red;
+  font-size: 16px;
+}
+
+.reservation-container form {
+  margin-top: 20px;
+}
+
+/* Stylizacja strony Lista Rezerwacji */
+
+.lista-rezerwacji-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.lista-rezerwacji-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.lista-rezerwacji-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.lista-rezerwacji-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.lista-rezerwacji-container th,
+.lista-rezerwacji-container td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.lista-rezerwacji-container th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.lista-rezerwacji-container td {
+  text-align: center;
+}
+
+.lista-rezerwacji-container .delete-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.lista-rezerwacji-container .delete-button:hover {
+  background-color: #c82333;
+}
