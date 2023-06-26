@@ -24,6 +24,10 @@ app.use(session(sessionConfig));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+    res.redirect('/index');
+  });
+
 app.post('/login', (req, res) => {
   const { username, password } = req.body;
 

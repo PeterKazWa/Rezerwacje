@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c03768c3-01fe-4065-97c9-8aaf47cebfd6/resourceGroups/rgpkfp/providers/Microsoft.Web/sites/RezerwacjeMiejsc",
+    "appService.deploySubpath": "."
+}
